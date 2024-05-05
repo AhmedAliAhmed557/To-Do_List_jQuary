@@ -91,10 +91,10 @@ span {
 	cursor: pointer;
 	transition: 0.5 ease-in-out;
 }
-.delete {
+ul li span:first-child {
 	background-color: #e74c3c;
 }
-.edit {
+ul li span:nth-child(2) {
 	background-color: #29b6f6;
 }
 
